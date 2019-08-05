@@ -582,12 +582,12 @@ v ^ v; // 0
 
 #### Proposed Symbol Mapping and behavior
 
-| Symbol                     | Operator |
-| :------------------------- | :------- |
-| `Symbol.bitwiseAnd`        | `&`      |
-| `Symbol.bitwiseOr`         | `|`      |
-| `Symbol.bitwiseXor`        | `^`      |
-| `Symbol.bitwiseComplement` | `~`      |
+| Symbol                     | Operator  |
+| :------------------------- | :-------- |
+| `Symbol.bitwiseAnd`        | `&`       |
+| `Symbol.bitwiseOr`         | `\|`      |
+| `Symbol.bitwiseXor`        | `^`       |
+| `Symbol.bitwiseComplement` | `~`       |
 
 Default behavior should be to throw an error, e.g.:
 
